@@ -1,13 +1,13 @@
 <?php
 /*
-Plugin Name:	JPKCom WordPress Theme Plugin
-Plugin URI:		https://github.com/JPKCom/jpkcom-wptheme-plugin
-Description:	A plugin to load custom assets, functions and templates into WordPress.
-Version:		1.0.0
-Author:			Jean Pierre Kolb
-Author URI:		https://www.jpkc.com/
-License:		GPL-2.0+
-License URI:	http://www.gnu.org/licenses/gpl-2.0.txt
+Plugin Name: JPKCom WordPress Theme Plugin
+Plugin URI: https://github.com/JPKCom/jpkcom-wptheme-plugin
+Description: A plugin to load custom assets, functions and templates into WordPress.
+Version: 1.0.0
+Author: Jean Pierre Kolb
+Author URI: https://www.jpkc.com/
+License: GPL-2.0+
+License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 */
 
 if ( ! defined( 'WPINC' ) ) {
