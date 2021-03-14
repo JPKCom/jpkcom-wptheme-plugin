@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name:	JPKCom WordPress Theme Plugin
-Plugin URI:		https://example.com
+Plugin URI:		https://github.com/JPKCom/jpkcom-wptheme-plugin
 Description:	A plugin to load custom assets, functions and templates into WordPress.
 Version:		1.0.0
 Author:			Jean Pierre Kolb
