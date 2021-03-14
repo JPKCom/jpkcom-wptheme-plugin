@@ -53,7 +53,7 @@ if ( ! function_exists( 'jpkcom_enqueue_gutenberg_files' ) ) {
 		// Loads a CSS file.
 		// wp_enqueue_style( 'jpkcom-gutenberg-css', JPKCOM_WPTHEME_PLUGIN_URL . 'assets/css/gutenberg.css', false );
 
-		// Loads JS files.
+		// Loads a JS file.
 		// wp_enqueue_script( 'jpkcom-gutenberg-js', JPKCOM_WPTHEME_PLUGIN_URL . 'assets/js/gutenberg.js', false );
 
 	}
