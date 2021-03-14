@@ -7,7 +7,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "compile": "node-sass src/sass/style.scss assets/css/style.css --source-map=true --output-style=expanded && node-sass src/sass/gutenberg.scss assets/css/gutenberg.css --source-map=true --output-style=expanded",
         "compile-dev": "node-sass src/sass/style.scss assets/css/style.css --source-map=true --output-style=expanded",
-        "dev": "watch \"npm run compile-dev\" sass",
+        "dev": "watch \"npm run compile-dev\" src/sass",
         "prefix": "postcss assets/css/style.css --use=autoprefixer --map=false --output=assets/css/style.css",
         "build": "npm run compile && npm run prefix"
     },
