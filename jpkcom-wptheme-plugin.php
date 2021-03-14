@@ -63,7 +63,36 @@ add_action( 'enqueue_block_editor_assets', 'jpkcom_enqueue_gutenberg_files' );
 
 
 /**
+ * Expand HTML code in head.
+ */
+if ( ! function_exists( 'jpkcom_expand_head_content' ) ) {
+
+	function jpkcom_expand_head_content() {
+
+		require_once( JPKCOM_WPTHEME_PLUGIN_PATH . 'inc/head.php' );
+
+	}
+
+}
+add_action( 'wp_head', 'jpkcom_expand_head_content', 10 );
+
+
+/**
+ * Expand HTML code in footer.
+ */
+if ( ! function_exists( 'jpkcom_expand_footer_content' ) ) {
+
+	function jpkcom_expand_footer_content() {
+
+		require_once( JPKCOM_WPTHEME_PLUGIN_PATH . 'inc/footer.php' );
+
+	}
+
+}
+add_action( 'wp_footer', 'jpkcom_expand_footer_content', 10 );
+
+
+/**
  * Include PHP files.
  */
 // require_once( JPKCOM_WPTHEME_PLUGIN_PATH . 'inc/my-function.php' );
-
