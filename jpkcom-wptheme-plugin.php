@@ -24,7 +24,7 @@ define( 'JPKCOM_WPTHEME_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 if ( ! function_exists( 'jpkcom_enqueue_files' ) ) {
 
 	/**
-	 * Load JavaScript and CSS sources.
+	 * Load JavaScript and CSS files.
 	 */
 	function jpkcom_enqueue_files() {
 
@@ -46,7 +46,7 @@ add_action( 'wp_enqueue_scripts', 'jpkcom_enqueue_files' );
 if ( ! function_exists( 'jpkcom_enqueue_gutenberg_files' ) ) {
 
 	/**
-	 * Load JavaScript and CSS sources.
+	 * Load JavaScript and CSS files.
 	 */
 	function jpkcom_enqueue_gutenberg_files() {
 
