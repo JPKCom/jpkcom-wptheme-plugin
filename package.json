@@ -1,0 +1,35 @@
+{
+    "name": "jpkcom-wptheme-plugin",
+    "version": "1.0.0",
+    "description": "JPKCom WordPress Theme Plugin SASS compiler",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "compile": "node-sass src/sass/style.scss assets/css/style.css --source-map=true --output-style=expanded && node-sass src/sass/gutenberg.scss assets/css/gutenberg.css --source-map=true --output-style=expanded",
+        "compile-dev": "node-sass src/sass/style.scss assets/css/style.css --source-map=true --output-style=expanded",
+        "dev": "watch \"npm run compile-dev\" sass",
+        "prefix": "postcss assets/css/style.css --use=autoprefixer --map=false --output=assets/css/style.css",
+        "build": "npm run compile && npm run prefix"
+    },
+    "keywords": [
+        "wordpress",
+        "plugin",
+        "theme",
+        "sass",
+        "scss",
+        "css"
+    ],
+    "browserslist": [
+        "last 4 version"
+    ],
+    "author": "Jean Pierre Kolb <jpk@jpkc.com> (https://www.jpkc.com/)",
+    "license": "GPL-2.0+",
+    "dependencies": {
+        "autoprefixer": "^9.8.5",
+        "browserslist": "^4.13.0",
+        "node-sass": "^4.14.1",
+        "postcss": "^7.0.32",
+        "postcss-cli": "^7.1.1",
+        "watch": "^1.0.2"
+    }
+}
