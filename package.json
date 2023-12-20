@@ -25,11 +25,11 @@
     "author": "Jean Pierre Kolb <jpk@jpkc.com> (https://www.jpkc.com/)",
     "license": "GPL-2.0+",
     "dependencies": {
-        "autoprefixer": "^9.8.5",
-        "browserslist": "^4.13.0",
-        "node-sass": "^4.14.1",
-        "postcss": "^7.0.32",
-        "postcss-cli": "^7.1.1",
-        "watch": "^1.0.2"
+        "autoprefixer": "^10.4.16",
+        "browserslist": "^4.22.2",
+        "node-sass": "^9.0.0",
+        "postcss": "^8.4.32",
+        "postcss-cli": "^11.0.0",
+        "watch": "^0.13.0"
     }
 }
