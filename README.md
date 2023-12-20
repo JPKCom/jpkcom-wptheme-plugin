@@ -4,8 +4,8 @@ JPKCom WordPress Theme Plugin
 A plugin to load custom assets, functions and templates into WordPress.
 
 - Requires at least: 5.7
-- Tested up to: 5.7
-- Requires PHP: 7.4
+- Tested up to: 6.4
+- Requires PHP: 8.1
 - License: GNU General Public License v2 or later
 - License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
