@@ -18,5 +18,10 @@ A plugin to load custom assets, functions and templates into WordPress.
 
 ## Changelog ##
 
+### 1.0.1 ###
+* Updated Node.js dependencies for Node.js v20.x LTS support
+* Increased minimum PHP version to 8.1.x
+* Tested with WordPress v6.4.2
+
 ### 1.0.0 ###
 * Initial Release
